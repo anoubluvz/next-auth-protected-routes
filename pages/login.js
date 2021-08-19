@@ -71,7 +71,7 @@ export async function getServerSideProps({ req })
 
   return {
     props: {
-      authenticated: true
+      authenticated: false
     }
   }
 }
